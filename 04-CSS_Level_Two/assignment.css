@@ -1,0 +1,31 @@
+h1{
+  font-family: 'Courier Prime', monospace;
+  text-align: center;
+}
+
+
+.art{
+  margin: auto;
+}
+
+td{
+  height: 200px;
+  padding: 100px;
+  border: 6px solid white;
+}
+
+#cell1{
+  background-color: #D2AB99;
+}
+#cell2{
+  background-color: #BDBEA9;
+}
+#cell3{
+  background-color: #8DB38B;
+}
+#cell4{
+  background-color: #56876D;
+}
+#cell5{
+  background-color: #04724D;
+}
