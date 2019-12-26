@@ -25,6 +25,13 @@
 
 function sleepIn(weekday, vacation) {
     //Code Goes Here
+    if (vacation === true) {
+      return true;
+    } else if (weekday === false) {
+      return true;
+    } else {
+      return false
+    }
 }
 
 
