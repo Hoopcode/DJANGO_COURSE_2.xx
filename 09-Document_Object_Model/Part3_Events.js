@@ -17,9 +17,17 @@ headOne.addEventListener('mouseout',function(){
 
 
 // On Click
+let clicked = false;
 headTwo.addEventListener("click",function(){
-  headTwo.textContent = "Clicked On";
-  headTwo.style.color = 'blue';
+  if (clicked) {
+    headTwo.textContent = "Clicked off";
+    headTwo.style.color = 'black';
+    clicked = !(clicked);
+  } else {
+    headTwo.textContent = "Clicked On";
+    headTwo.style.color = 'blue';
+    clicked = !(clicked);
+  }
 })
 
 // Double Click
